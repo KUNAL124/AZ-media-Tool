@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colortoolbar">#fc5603</color>
+    <color name="relative_trans">#00ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="translucent">#33535050</color>
+    <color name="partial_trans">#625e5e4f</color>
+    <color name="video_player_transa">#a7332f2f</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="Progress_Color">#30e40c</color>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/rounded_settings_dialog"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sound"
+        android:src="@drawable/music"
+        android:tint="@color/white"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="5dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/sound"
+        android:layout_toEndOf="@+id/sound"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/brightness"
+        android:src="@drawable/brightness"
+        android:tint="@color/white"
+        android:layout_alignTop="@+id/seekBar2"
+        android:layout_toLeftOf="@+id/seekBar"
+        android:layout_toStartOf="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar2"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/seekBar"
+        android:layout_toRightOf="@+id/brightness"
+        android:layout_marginLeft="29dp"
+        />
+</RelativeLayout>
